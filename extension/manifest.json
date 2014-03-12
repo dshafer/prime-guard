@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stream Guard",
+  "description": "Prevent accidental purchases of Amazon Prime videos that you can stream for free",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.com/*"],
+      "js": ["prime-guard.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
