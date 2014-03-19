@@ -3,7 +3,7 @@
 
   "name": "Stream Guard",
   "description": "Prevent accidental purchases of Amazon Prime videos that you can stream for free",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "16": "img/icon_16.png",
     "48": "img/icon_48.png",
